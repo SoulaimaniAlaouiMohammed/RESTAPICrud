@@ -1,0 +1,57 @@
+/* Form Styling */
+#modifyForm {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    width: 400px;
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}
+
+/* Form Fields */
+#modifyForm label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#modifyForm input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+
+#modifyForm input:focus {
+    border: 1px solid #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+/* Submit Button */
+#modifyForm .form-btn {
+    display: inline-block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#modifyForm .form-btn:hover {
+    background-color: #0056b3;
+}

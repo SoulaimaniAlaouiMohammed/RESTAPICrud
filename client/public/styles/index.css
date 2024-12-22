@@ -1,0 +1,166 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(72deg, #F5EFFF, #FBF6E9);
+    background-repeat: no-repeat;
+    overflow-x: hidden;  
+}
+
+.header {
+    width: 100%;
+}
+
+.navbar {
+    box-shadow: rgba(67, 68, 70, 0.596) 0px 8px 24px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard {
+    width: 300px;
+}
+
+.cards {
+    width: 100%;
+    margin-top: 90px;
+    display: grid;
+    gap: 20px;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 55px;
+    width: fit-content;
+    padding: 30px;
+    background: #213555;
+    height: 100vh;
+    position: fixed;
+    color: #fff;
+}
+
+.sidebar h3 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.sidebar h4 {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #BCCCDC;
+}
+
+.sidebar h4:hover {
+    background: rgba(189, 184, 184, 0.096);
+}
+.sidebar h4:hover a {
+    color: #fff;
+}
+
+
+.card {
+    padding: 20px;
+    border: 1px solid #8aaace6e;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #D9EAFD;
+    transition: all 1s ease;
+}
+
+.card:hover {
+    box-shadow: #8aaaceb2 0px 48px 100px 0px;
+}
+
+.cardInfos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cardInfos h3 {
+    font-size: 25px;
+    color: #767c81;
+    margin-bottom: 10px;
+}
+
+.cardInfos span {
+    color: #4A628A;
+}
+
+.cardInfos h4 {
+    font-size: 18px;
+    color: #767c81;
+    text-decoration: underline;
+    text-decoration-color: #4056a7;
+}
+
+.cardBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardBtns button {
+    font-size: 20px;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+.deleteBtn {
+    background: #e91010;
+    color: #fff;
+    border: 1px solid #e90000c4;
+}
+
+.deleteBtn:hover {
+    background: #f50c0ce8;
+    border: 1px solid #ff0000c4;
+}
+
+.card:has(.deleteBtn:hover) {
+    border: 1px solid #e91010;
+    box-shadow: #e910108a 0px 7px 29px 0px;
+}
+
+.modifyBtn {
+    background: #0D92F4;
+    color: #fff;
+    border: 1px solid #0385e2c2;
+}
+
+.modifyBtn:hover {
+    background: #038ceee5;
+    border: 1px solid #0095ffe5;
+}
+
+.card:has(#modifyBtn:hover) {
+    border: 1px solid #0D92F4;
+    box-shadow: #0d94f4bb 0px 7px 29px 0px;
+}

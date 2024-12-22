@@ -1,0 +1,26 @@
+{
+   "users": [
+      {
+         "id": 2,
+         "firstName": "user2FName",
+         "lastName": "user2LName",
+         "email": "user2@email.com",
+         "age": 40,
+         "city": "Paris",
+         "adresse": "Paris Boulevard",
+         "domain": "CS",
+         "experienceYears": 20
+      },
+      {
+         "id": 3,
+         "firstName": "user3FName",
+         "lastName": "user3LName",
+         "email": "user3@email.com",
+         "age": 30,
+         "city": "Los Angeles",
+         "adresse": "Street 3 Los Angeles",
+         "domain": "Cs",
+         "experienceYears": 15
+      }
+   ]
+}
